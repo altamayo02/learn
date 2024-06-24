@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Green Software for Practitioners",
+    "message": "Software Verde para los Profesores",
     "description": "The title in the navbar"
   },
   "item.label.Take the exam": {
-    "message": "Take the final quiz",
+    "message": "Toma la prueba final",
     "description": "Navbar item with label Take the exam"
   },
   "item.label.a Green Software Foundation project": {
-    "message": "a Green Software Foundation project",
+    "message": "un proyecto de la Fundación de Software Verde",
     "description": "Navbar item with label a Green Software Foundation project"
   }
 }

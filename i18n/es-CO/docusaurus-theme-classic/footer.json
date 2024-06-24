@@ -1,46 +1,46 @@
 {
   "link.title.Links": {
-    "message": "Links",
-    "description": "The title of the footer links column with title=Links in the footer"
+    "message": "Enlaces",
+    "description": "El título de la columna de los enlaces de pie de página con title=Enlaces en el pie de página"
   },
   "link.title.LEGAL": {
     "message": "LEGAL",
-    "description": "The title of the footer links column with title=LEGAL in the footer"
+    "description": "El título de la columna de los enlaces de pie de página con title=LEGAL en el pie de página"
   },
   "link.title.GSF Info": {
-    "message": "GSF Info",
-    "description": "The title of the footer links column with title=GSF Info in the footer"
+    "message": "Acerca de FSV",
+    "description": "El título de la columna de los enlaces de pie de página con title=Acerca de FSV en el pie de página"
   },
   "link.item.label.Github": {
-    "message": "Github",
-    "description": "The label of footer link with label=Github linking to https://github.com/Green-Software-Foundation/training/"
+    "message": "GitHub",
+    "description": "La etiqueta del enlace de pie de página con label=GitHub linking to https://direccionando a/Green-Software-Foundation/training/"
   },
   "link.item.label.Website": {
-    "message": "Website",
-    "description": "The label of footer link with label=Website linking to https://learn.greensoftware.foundation"
+    "message": "Sitio web",
+    "description": "La etiqueta del enlace de pie de página con label=Sitio web direccionando a https://learn.greensoftware.foundation"
   },
   "link.item.label.Trademark Policy": {
-    "message": "Trademark Policy",
-    "description": "The label of footer link with label=Trademark Policy linking to https://greensoftware.foundation/policy/trademark"
+    "message": "Política de Marca",
+    "description": "La etiqueta del enlace de pie de página con label=Política de Marca direccionando a https://greensoftware.foundation/policy/trademark"
   },
   "link.item.label.Terms and Privacy Policy": {
-    "message": "Terms and Privacy Policy",
-    "description": "The label of footer link with label=Terms and Privacy Policy linking to https://greensoftware.foundation/policy/terms"
+    "message": "Términos y Política de Privacidad",
+    "description": "La etiqueta del enlace de pie de página con label=Términos y Política de Privacidad direccionando a https://greensoftware.foundation/policy/terms"
   },
   "link.item.label.Green Software Foundation": {
-    "message": "Green Software Foundation",
-    "description": "The label of footer link with label=Green Software Foundation linking to https://greensoftware.foundation"
+    "message": "Fundación del Software Verde",
+    "description": "La etiqueta del enlace de pie de página con label=Fundación del Software Verde direccionando a https://greensoftware.foundation"
   },
   "link.item.label.Twitter": {
-    "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/gsfcommunity"
+    "message": "X",
+    "description": "La etiqueta del enlace de pie de página con label=X direccionando a https://twitter.com/gsfcommunity"
   },
   "link.item.label.Linkedin": {
-    "message": "Linkedin",
-    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/company/green-software-foundation/"
+    "message": "LinkedIn",
+    "description": "La etiqueta del enlace de pie de página con label=LinkedIn direccionando a https://www.linkedin.com/company/green-software-foundation/"
   },
   "copyright": {
-    "message": "Copyright © 2023 Joint Development Foundation Projects, LLC, Green Software Foundation Series",
+    "message": "Copyright © 2024 Joint Development Foundation Projects, LLC, Green Software Foundation Series",
     "description": "The footer copyright"
   }
 }
