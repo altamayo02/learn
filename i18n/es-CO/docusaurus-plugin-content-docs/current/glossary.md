@@ -4,7 +4,7 @@ title: Glossary
 ---
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+Esta es una traducción contribuida por la comunidad. Posee soporte limitado y puede no concordar con la versión en Inglés más reciente del curso.
 :::
 
 ## Acronyms

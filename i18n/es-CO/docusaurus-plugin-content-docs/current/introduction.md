@@ -1,51 +1,51 @@
 ---
 sidebar_position: 2
-title: Introduction
+title: Introducción
 ---
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+Esta es una traducción contribuida por la comunidad. Posee soporte limitado y puede no concordar con la versión en Inglés más reciente del curso.
 :::
 
-## What is green software?
+## ¿Qué es el software verde?
 
-Green software is an emerging discipline at the intersection of climate science, software design, electricity markets, hardware, and data center design.
+El desarrollo de software verde es una disciplina que emerge desde la intersección de la ciencia climática, el diseño de software, los mercados eléctricos, el hardware, y el diseño de centros de datos.
 
-Green software is carbon-efficient software, meaning it emits the least carbon possible. Only three activities reduce the carbon emissions of software; energy efficiency, carbon awareness, and hardware efficiency. This training will explain all of these concepts, how to apply them to your processes and how to measure them, as well as some of the international guidelines and organizations that guide and monitor this space.
+El software verde es software eficiente con el carbono, es decir, que emite la menor cantidad posible de carbono. Solamente tres actividades reducen las emisiones de carbono del software: eficiencia energética, conciencia del carbono, y eficiencia en el hardware. Este entrenamiento explicará todos estos conceptos, cómo aplicarlos a tus procesos y cómo medirlos, junto con algunas de las pautas internacionales y organizaciones que guían y monitorean este espacio.
 
-![alt_text](./images/01_carbon_efficiency.png "image_tooltip")
+![alt_text](./images/01_carbon_efficiency.png "Eficiencia de carbono")
 
-## Who should read this?
+## ¿Quién debería leer esto?
 
-Anyone involved in the process of building, deploying, or managing software. By studying these principles, a green software practitioner can make decisions that have a meaningful impact on the carbon pollution of their applications.
+Cualquier persona involucrada en el proceso de desarrollo, despliegue o gestión de software. Al estudiar estos principios, un profesor de software verde puede tomar decisiones que tengan un impacto significativo en la contaminación de carbono de sus aplicaciones.
 
-## History
+## Historia
 
-In 2019 the original eight principles of green software engineering were released. This 2022 update of the principles took on feedback received over the years, merging some principles and adding a new one regarding understanding climate commitments.
+En 2019, los originales ocho principios de la ingeniería de software verde fueron publicados. Esta actualización del 2022 de los principios tomó en cuenta comentarios recibidos a través de los años, fusionando algunos principios y añadiendo uno nuevo respecto al entendimiento de los compromisos climáticos.
 
-## How to be a green software practitioner
+## Cómo ser un profesor de software verde
 
-The following training covers 6 key areas that a green software practitioner should know:
+El siguiente entrenamiento cubre 6 conceptos clave con los que un profesor de software verde debería estar familiarizado:
 
-1. **Carbon Efficiency**: Emit the least amount of carbon possible.
-2. **Energy Efficiency**: Use the least amount of energy possible.
-3. **Carbon Awareness**: Do more when the electricity is cleaner and do less when the electricity is dirtier.
-4. **Hardware Efficiency**: Use the least amount of embodied carbon possible.
-5. **Measurement**: What you can't measure, you can't improve.
-6. **Climate Commitments**: Understand the exact mechanism of carbon reduction.
+1. **Eficiencia de Carbono**: Emitir la menor cantidad de carbono posible.
+2. **Eficiencia Energética**: Utilizar la menor cantidad posible de energía.
+3. **Conciencia del Carbono**: Hacer más cuando la electricidad está más limpia y hacer menos cuando la electricidad está más sucia.
+4. **Eficiencia de Hardware**: Utilizar la menor cantidad posible de carbono incorporado posible.
+5. **Medida**: No se puede mejorar lo que no se puede medir.
+6. **Compromisos Climáticos**: Entender el mecanismo exacto de la reducción del carbono.
 
-Each of these chapters will introduce some new concepts and explain in detail why they are important in terms of the climate, and how you can apply them to your green software practices.
+Cada uno de estos capítulos introducirá algunos conceptos nuevos y explicará en detalle por qué son importantes en términos del clima, y cómo los puedes aplicar a tus prácticas de software verde.
 
-## Principles, Patterns, and Practices.
+## Principios, patrones y prácticas
 
-This course's key areas and content describe the **principles** of green software, a core set of competencies needed to define, run and build green software.
+Las áreas clave de este curso describen los **principios** del software verde, un conjunto esencial de competencias necesarias para definir, ejecutar y ejecutar software verde.
 
-A green software [**pattern**](https://patterns.greensoftware.foundation/) is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
+Un [**patrón de software verde**](https://patterns.greensoftware.foundation/) es un ejemplo específico de cómo aplicar uno o más principios en situaciones de la vida real. Mientras los principios describen la teoría detrás del software verde, los principios son el consejo práctico el cual los profesores de software verde pueden usar en sus aplicaciones de software hoy. Los patrones son independientes de proveedor.
 
-A green software **practice** is a pattern applied to a specific vendor's product and informs practitioners about how to use that product in a more sustainable way. 
+Una **práctica** de software verde es un patrón aplicado al producto de un proveedor específico, e informa a los profesores acerca de cómo usar dicho producto de una manera más sostenible.
 
-Practices should refer to patterns that should refer to principles.
+Las prácticas deberían referirse a los patrones, que a la vez se deberían referir a los principios.
 
-The green software foundation also publishes a [catalog of vendor-neutral green software patterns](https://patterns.greensoftware.foundation/) across various categories.
+La Fundación del Software Verde también publica un [catálogo de patrones de software verde independientes de proveedor](https://patterns.greensoftware.foundation/) a través de diferentes categorías.
  
-![Green Software Principles, Patterns, and Practices](./images/GSF_Principles_Patterns_Practices_v2.png "Green Software Principles, Patterns, and Practices")
+![Principios, Patrones y Prácticas del Software Verde](./images/GSF_Principles_Patterns_Practices_v2.png "Principios, Patrones y Prácticas del Software Verde")
