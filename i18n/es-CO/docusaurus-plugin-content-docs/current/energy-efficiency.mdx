@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Energy Efficiency
+title: Eficiencia Energética
 ---
 
 import Quiz from "/src/components/Quiz";
@@ -11,58 +11,58 @@ Esta es una traducción contribuida por la comunidad. Posee soporte limitado y p
 
 :::tip Principle
 
-_Use the least amount of energy possible._
+_Usar la menor cantidad de energía posible._
 
 :::
 
-## Introduction
+## Introducción
 
-Energy is the ability to do work. There are many different forms of energy, such as heat, electrical and chemical, and one type of energy can be converted to another. For example, we convert chemical energy from coal to electrical energy. In other words, electricity is secondary energy converted from another energy type. In this way, we can think of energy as a measure of the electricity used.
+La energía es la habilidad de realizar trabajo. Hay muchas formas diferentes de energía, tales como el calor, la energía eléctrica y la química, y un tipo de energía puede ser convertido a otro. Por ejemplo, convertimos energía química del carbón a energía eléctrica. En otras palabras, la electricidad es energía secundaria convertida desde otro tipo de energía. De este modo, podemos considerar la energía como una medida de la electricidad usada.
 
-All software, from the applications running on mobile phones to the training of Machine Learning models running in data centers, consumes electricity. One of the best ways to reduce electricity consumption and the subsequent carbon emissions made by software is to make applications more energy efficient. However, that’s not where our responsibility ends.
+Todo software, desde aplicaciones móviles hasta el entrenamiento de modelos de Aprendizaje Automático ejecutándose en centros de datos, consume electricidad. Una de las mejores maneras de reducir el consumo de electricidad (y, subsecuentemente, las emisiones de carbono del software) es hacer las aplicaciones más eficientes con la energía. Sin embargo, allí no termina nuestra responsabilidad.
 
-Green software practitioners take responsibility for the energy consumed by their products and design them to consume as little as possible. We should make sure that, at every step in the process, there is as little waste as possible and that most of the energy goes to the next step.
+Los profesores del software verde toman responsabilidad por la energía consumida por sus productos y los diseñan para consumir lo menos posible. Debemos asegurarnos de que, en cada paso del proceso de construcción, haya el menor desperdicio posible y que la mayoría de la energía vaya al paso siguiente.
 
-The final step in this chain is represented by the end user of your product, not the finished product itself. This means our goal is not simply to make the most energy efficient code or the “greenest” software, but to think about the end user and how to make sure they are not creating unnecessary emissions.
+El paso final del flujo de trabajo es representado por el usuario final de tu producto, no el producto terminado en sí. Esto significa que nuestro objetivo no es simplemente escribir el código más eficiente con la energía, o "el software más verde", sino pensar en el usuario final y cómo asegurarse de que no esté creando emisiones innecesarias.
 
-This might mean batching jobs together to take advantage of energy proportionality or changing how a user uses your software. Let’s take a look at some of these concepts and some ways that you can become more energy efficient at every stage of the chain, right up to the final consumer.
+Esto puede significar tomar acciones como **trabajar por lotes** para tomar ventaja de la **proporcionalidad energética**, o modificar la manera en la que el usuario interactúa con tu software. Observemos algunos de estos conceptos y algunas formas en las que puedes volverte más eficiente con la energía en cada etapa del flujo de trabajo, hasta el consumidor final.
 
-![alt_text](./images/03_energy_efficiency.png "image_tooltip")
+![alt_text](./images/03_energy_efficiency.png "Eficiencia energética")
 
-## Key concepts
+## Conceptos clave
 
-### Fossil fuels and high-carbon sources of energy
+### Combustibles fósiles y fuentes de energía altas en carbono
 
-Most electricity is produced through burning fossil fuels, [usually coal](https://ourworldindata.org/grapher/world-electricity-by-source). Fossil fuels are made from decomposing plants and animals. These fuels are found in the Earth's crust and contain carbon and hydrogen, which can be burned for energy. Coal, oil, and natural gas are examples of fossil fuels.
+Casi todo la electricidad es producida a través de la quema de combustibles fósiles, [usualmente carbón](https://ourworldindata.org/grapher/world-electricity-by-source). Los combustibles fósiles son hechos de plantas y animales en descomposición. Estos combustibles se encuentran en la corteza de la Tierra y contienen carbono e hidrógeno, los cuales pueden ser quemados para obtener energía. El carbón, el aceite y el gas natural son ejemplos de combustibles fósiles.
 
-![alt_text](./images/04_high-carbon_sources.png "image_tooltip")
+![alt_text](./images/04_high-carbon_sources.png "Fuentes altas en carbono")
 
-Most people think electricity is clean. Our hands don't get dirty when we plug something into a wall, and our laptops don't need exhaust pipes. However, since most electricity comes from burning fossil fuels and energy supply is the [single most significant](https://www.eea.europa.eu/data-and-maps/daviz/change-of-co2-eq-emissions-2#tab-chart_4) cause of carbon emissions, we can draw a direct line from electricity to carbon emissions. In these terms, electricity can be considered a proxy for carbon.
+La mayoría de la gente cree que la electricidad es limpia. Nuestras manos no se ensucian cuando conectamos algo a la pared, y nuestros portátiles no necesitan exhostos. Sin embargo, debido a que la mayoría de la electricidad viene de la quema de combustibles fósiles, y el abastecimiento de energía es la [única causa más significativa](https://www.eea.europa.eu/data-and-maps/daviz/change-of-co2-eq-emissions-2#tab-chart_4) de emisiones de carbono, podemos trazar una relación directa entre electricidad y emisiones de carbono. De este modo, la electricidad puede ser considerada una delegada del carbono.
 
-If our goal is to be carbon efficient, then it means our goal is also to be energy efficient since energy is a proxy for carbon. This means using the least amount of energy possible per unit of work.
+Si nuestra meta es ser eficientes con el carbono, entonces esto significa que nuestra meta también es ser eficiente con la energía, ya que la energía es una delegada del carbono. Esto es, usar la menor cantidad posible de energía por unidad de trabajo.
 
-### Low-carbon sources of energy
+### Fuentes de energía bajas en carbono
 
-Clean energy comes from renewable, zero-emission sources that do not pollute the atmosphere when used and save energy through energy-efficient practices. There are overlaps between clean, green, and renewable energy. Here's how we can differentiate between them:
+Las energías limpias provienen de fuentes renovables y de cero emisiones, las cuales no contaminan la atmósfera al ser usadas y ahorran energía a través de prácticas eficientes con la energía. Hay solapos entre energías limpias, verdes y renovables. He aquí cómo las podemos diferenciar:
 
-- **Clean energy** - doesn’t produce carbon emissions e.g. nuclear.
-- **Green energy** - sources from nature
-- **Renewable energy** - sources will not expire e.g. solar, wind
+- **Energías limpias** - no emiten carbono. Ejemplo: energía nuclear.
+- **Energías verdes** - poseen fuentes naturales
+- **Energías renovables** - poseen fuentes que no expirarán. Ejemplos: energía solar, energía eólica
 
-### Energy measurement
+### Medida de la energía
 
-- Energy is measured in joules (J), the [SI](https://en.wikipedia.org/wiki/International_System_of_Units) unit of energy.
-- Power is measured in watts, where 1 watt (W) is a rate corresponding to one joule per second.
-- A kilowatt (kW) is, therefore, also a rate corresponding to 1000 joules per second.
-- A kilowatt-hour (kWh) is a measure of energy (J) corresponding to one kilowatt of power sustained for one hour.
+- La energía es medida en julios (J), la medida de energía del [SI](https://es.wikipedia.org/wiki/Sistema_Internacional_de_Unidades).
+- La potencia se mide en vatios, donde 1 vatio (W) es una razón correspondiente a 1 julio por segundo.
+- Un kilovatio (kW) es, por lo tanto, otra razón correspondiente a 1000 julios por segundo.
+- Un kilovatio-hora (kWh) es una medida de la energía (J) correspondiente a 1 kilovatio de potencia sostenido por una hora.
 
-## How to improve energy efficiency
+## Cómo mejorar la eficiencia energética
 
-Now that we know how energy is produced and the associated cost in terms of emissions, based on whether low- or high-carbon energy sources are used, let's take a look at some of the ways green software practitioners can improve energy efficiency. Understanding power usage effectiveness and energy proportionality means you can make better decisions in terms of how to use energy in the most efficient way possible and waste less.
+Ahora que sabemos cómo es producida la energía y los costos asociados en términos de emisiones (basados en si se usan fuentes de energía bajas o altas en carbono), veamos algunas de las formas en las que los profesores del software verde pueden mejorar la eficiencia energética. Entender la efectividad del consumo eléctrico y la proporcionalidad energética significa que puedes tomar mejores decisiones en términos de cómo usar la energía de la forma más eficiente posible y desperdiciar menos.
 
-### Power usage effectiveness
+### Efectividad del consumo eléctrico
 
-The data center industry uses the [power usage effectiveness](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) (PUE) metric, developed by Green Grid in 2006, to **measure data center energy efficiency**. Specifically, this relates to how much energy the computing equipment uses as compared to cooling and other overheads supporting the equipment. When a data center's PUE is close to 1.0, computing is using nearly all energy. When the PUE is 2.0, this means an additional watt of IT power is required to cool and distribute power to the IT equipment for every watt of IT power it uses.
+La industria de los centros de datos usa la métrica de efectividad del consumo eléctrico [Power Usage Effectiveness](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) (PUE), desarrollada por Green Grid en 2006, para **medir la eficiencia energética de los centros de datos**. Específicamente, esto tiene que ver con cuánta energía usan los equipos de cómputo en comparación con la que usan refrigeraciones y otros excedentes que ayudan a los equipos de cómputo a funcionar. Cuando el PUE de un centro de datos es cercano a 1.0, el proceso de computación está usando casi toda la energía. Cuando el PUE es 2.0, significa que se require un vatio adicional de IT power para enfriar y distribuir potencia al IT equipment por cada vatio de IT power que usa.
 
 Another way to think of PUE is as a multiplier to your application’s energy consumption. So, for example, if your application consumed 10 kWh and the PUE of the data center where it is running is 1.5, then the actual consumption from the grid is 15 kWh: 5kWh goes towards the operational overhead of the data center, and 10 kWh goes to the servers that are running your application.
 
